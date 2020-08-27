@@ -1,0 +1,461 @@
+Script started on 2020-08-27 14:58:42-04:00 [TERM="xterm" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+bash: /home/umrigar/cs240/bin/student.rc: No such file or directory
+rblazej1@remote04:~/tmp/lab0$ ls ~/.ssh
+authorized_keys  id_rsa  id_rsa.pub  known_hosts
+rblazej1@remote04:~/tmp/lab0$ [Krblazej1@remote04:~/tmp/lab0$ ssh-copy-id rblazej1@remote
+/usr/bin/ssh-copy-id: INFO: Source of key(s) to be installed: "/home/rblazej1/.ssh/id_rsa.pub"
+/usr/bin/ssh-copy-id: INFO: attempting to log in with the new key(s), to filter out any that are already installed
+
+/usr/bin/ssh-copy-id: ERROR: /home/rblazej1/.bashrc: line 1: /home/umrigar/cs240/bin/student.rc: No such file or directory
+
+rblazej1@remote04:~/tmp/lab0$ ssh://user@remote.cs.binghamton.edu/~umrigar/git-repos/cs220.git[K[K[K[K[K[K[K[K[K[K[K[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kmkdir -p ~/projects
+rblazej1@remote04:~/tmp/lab0$ cd ~/projects
+rblazej1@remote04:~/projects$ git clone ssh://user@remote.cs.binghamton.edu/~umrigar/git-repos/cs220.git[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C@remote.cs.binghamton.edu/~umrig[1Par/git-repos/cs220.git[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C@remote.cs.binghamton.edu/~umriga[1Pr/git-repos/cs220.git[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C@remote.cs.binghamton.edu/~umrigar[1P/git-repos/cs220.git[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C@remote.cs.binghamton.edu/~umrigar/[1Pgit-repos/cs220.git[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cr@remote.cs.binghamton.edu/~umrigar/git-repos/cs220.git[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cb@remote.cs.binghamton.edu/~umrigar/git-repos/cs220.git[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cl@remote.cs.binghamton.edu/~umrigar/git-repos/cs220.git[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ca@remote.cs.binghamton.edu/~umrigar/git-repos/cs220.git[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cz@remote.cs.binghamton.edu/~umrigar/git-repos/cs220.git[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ce@remote.cs.binghamton.edu/~umrigar/git-repos/cs220.git[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cj@remote.cs.binghamton.edu/~umrigar/git-repos/cs220.git[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C1@remote.cs.binghamton.edu/~umrigar/git-repos/cs220.git[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+Cloning into 'cs220'...
+/home/rblazej1/.bashrc: line 1: /home/umrigar/cs240/bin/student.rc: No such file or directory
+remote: Enumerating objects: 283, done.[K
+remote: Counting objects:   0% (1/283)   [Kremote: Counting objects:   1% (3/283)   [Kremote: Counting objects:   2% (6/283)   [Kremote: Counting objects:   3% (9/283)   [Kremote: Counting objects:   4% (12/283)   [Kremote: Counting objects:   5% (15/283)   [Kremote: Counting objects:   6% (17/283)   [Kremote: Counting objects:   7% (20/283)   [Kremote: Counting objects:   8% (23/283)   [Kremote: Counting objects:   9% (26/283)   [Kremote: Counting objects:  10% (29/283)   [Kremote: Counting objects:  11% (32/283)   [Kremote: Counting objects:  12% (34/283)   [Kremote: Counting objects:  13% (37/283)   [Kremote: Counting objects:  14% (40/283)   [Kremote: Counting objects:  15% (43/283)   [Kremote: Counting objects:  16% (46/283)   [Kremote: Counting objects:  17% (49/283)   [Kremote: Counting objects:  18% (51/283)   [Kremote: Counting objects:  19% (54/283)   [Kremote: Counting objects:  20% (57/283)   [Kremote: Counting objects:  21% (60/283)   [Kremote: Counting objects:  22% (63/283)   [Kremote: Counting objects:  23% (66/283)   [Kremote: Counting objects:  24% (68/283)   [Kremote: Counting objects:  25% (71/283)   [Kremote: Counting objects:  26% (74/283)   [Kremote: Counting objects:  27% (77/283)   [Kremote: Counting objects:  28% (80/283)   [Kremote: Counting objects:  29% (83/283)   [Kremote: Counting objects:  30% (85/283)   [Kremote: Counting objects:  31% (88/283)   [Kremote: Counting objects:  32% (91/283)   [Kremote: Counting objects:  33% (94/283)   [Kremote: Counting objects:  34% (97/283)   [Kremote: Counting objects:  35% (100/283)   [Kremote: Counting objects:  36% (102/283)   [Kremote: Counting objects:  37% (105/283)   [Kremote: Counting objects:  38% (108/283)   [Kremote: Counting objects:  39% (111/283)   [Kremote: Counting objects:  40% (114/283)   [Kremote: Counting objects:  41% (117/283)   [Kremote: Counting objects:  42% (119/283)   [Kremote: Counting objects:  43% (122/283)   [Kremote: Counting objects:  44% (125/283)   [Kremote: Counting objects:  45% (128/283)   [Kremote: Counting objects:  46% (131/283)   [Kremote: Counting objects:  47% (134/283)   [Kremote: Counting objects:  48% (136/283)   [Kremote: Counting objects:  49% (139/283)   [Kremote: Counting objects:  50% (142/283)   [Kremote: Counting objects:  51% (145/283)   [Kremote: Counting objects:  52% (148/283)   [Kremote: Counting objects:  53% (150/283)   [Kremote: Counting objects:  54% (153/283)   [Kremote: Counting objects:  55% (156/283)   [Kremote: Counting objects:  56% (159/283)   [Kremote: Counting objects:  57% (162/283)   [Kremote: Counting objects:  58% (165/283)   [Kremote: Counting objects:  59% (167/283)   [Kremote: Counting objects:  60% (170/283)   [Kremote: Counting objects:  61% (173/283)   [Kremote: Counting objects:  62% (176/283)   [Kremote: Counting objects:  63% (179/283)   [Kremote: Counting objects:  64% (182/283)   [Kremote: Counting objects:  65% (184/283)   [Kremote: Counting objects:  66% (187/283)   [Kremote: Counting objects:  67% (190/283)   [Kremote: Counting objects:  68% (193/283)   [Kremote: Counting objects:  69% (196/283)   [Kremote: Counting objects:  70% (199/283)   [Kremote: Counting objects:  71% (201/283)   [Kremote: Counting objects:  72% (204/283)   [Kremote: Counting objects:  73% (207/283)   [Kremote: Counting objects:  74% (210/283)   [Kremote: Counting objects:  75% (213/283)   [Kremote: Counting objects:  76% (216/283)   [Kremote: Counting objects:  77% (218/283)   [Kremote: Counting objects:  78% (221/283)   [Kremote: Counting objects:  79% (224/283)   [Kremote: Counting objects:  80% (227/283)   [Kremote: Counting objects:  81% (230/283)   [Kremote: Counting objects:  82% (233/283)   [Kremote: Counting objects:  83% (235/283)   [Kremote: Counting objects:  84% (238/283)   [Kremote: Counting objects:  85% (241/283)   [Kremote: Counting objects:  86% (244/283)   [Kremote: Counting objects:  87% (247/283)   [Kremote: Counting objects:  88% (250/283)   [Kremote: Counting objects:  89% (252/283)   [Kremote: Counting objects:  90% (255/283)   [Kremote: Counting objects:  91% (258/283)   [Kremote: Counting objects:  92% (261/283)   [Kremote: Counting objects:  93% (264/283)   [Kremote: Counting objects:  94% (267/283)   [Kremote: Counting objects:  95% (269/283)   [Kremote: Counting objects:  96% (272/283)   [Kremote: Counting objects:  97% (275/283)   [Kremote: Counting objects:  98% (278/283)   [Kremote: Counting objects:  99% (281/283)   [Kremote: Counting objects: 100% (283/283)   [Kremote: Counting objects: 100% (283/283), done.[K
+remote: Compressing objects:   0% (1/246)   [Kremote: Compressing objects:   1% (3/246)   [Kremote: Compressing objects:   2% (5/246)   [Kremote: Compressing objects:   3% (8/246)   [Kremote: Compressing objects:   4% (10/246)   [Kremote: Compressing objects:   5% (13/246)   [Kremote: Compressing objects:   6% (15/246)   [Kremote: Compressing objects:   7% (18/246)   [Kremote: Compressing objects:   8% (20/246)   [Kremote: Compressing objects:   9% (23/246)   [Kremote: Compressing objects:  10% (25/246)   [Kremote: Compressing objects:  11% (28/246)   [Kremote: Compressing objects:  12% (30/246)   [Kremote: Compressing objects:  13% (32/246)   [Kremote: Compressing objects:  14% (35/246)   [Kremote: Compressing objects:  15% (37/246)   [Kremote: Compressing objects:  16% (40/246)   [Kremote: Compressing objects:  17% (42/246)   [Kremote: Compressing objects:  18% (45/246)   [Kremote: Compressing objects:  19% (47/246)   [Kremote: Compressing objects:  20% (50/246)   [Kremote: Compressing objects:  21% (52/246)   [Kremote: Compressing objects:  22% (55/246)   [Kremote: Compressing objects:  23% (57/246)   [Kremote: Compressing objects:  24% (60/246)   [Kremote: Compressing objects:  25% (62/246)   [Kremote: Compressing objects:  26% (64/246)   [Kremote: Compressing objects:  27% (67/246)   [Kremote: Compressing objects:  28% (69/246)   [Kremote: Compressing objects:  29% (72/246)   [Kremote: Compressing objects:  30% (74/246)   [Kremote: Compressing objects:  31% (77/246)   [Kremote: Compressing objects:  32% (79/246)   [Kremote: Compressing objects:  33% (82/246)   [Kremote: Compressing objects:  34% (84/246)   [Kremote: Compressing objects:  35% (87/246)   [Kremote: Compressing objects:  36% (89/246)   [Kremote: Compressing objects:  37% (92/246)   [Kremote: Compressing objects:  38% (94/246)   [Kremote: Compressing objects:  39% (96/246)   [Kremote: Compressing objects:  40% (99/246)   [Kremote: Compressing objects:  41% (101/246)   [Kremote: Compressing objects:  42% (104/246)   [Kremote: Compressing objects:  43% (106/246)   [Kremote: Compressing objects:  44% (109/246)   [Kremote: Compressing objects:  45% (111/246)   [Kremote: Compressing objects:  46% (114/246)   [Kremote: Compressing objects:  47% (116/246)   [Kremote: Compressing objects:  48% (119/246)   [Kremote: Compressing objects:  49% (121/246)   [Kremote: Compressing objects:  50% (123/246)   [Kremote: Compressing objects:  51% (126/246)   [Kremote: Compressing objects:  52% (128/246)   [Kremote: Compressing objects:  53% (131/246)   [Kremote: Compressing objects:  54% (133/246)   [Kremote: Compressing objects:  55% (136/246)   [Kremote: Compressing objects:  56% (138/246)   [Kremote: Compressing objects:  57% (141/246)   [Kremote: Compressing objects:  58% (143/246)   [Kremote: Compressing objects:  59% (146/246)   [Kremote: Compressing objects:  60% (148/246)   [Kremote: Compressing objects:  61% (151/246)   [Kremote: Compressing objects:  62% (153/246)   [Kremote: Compressing objects:  63% (155/246)   [Kremote: Compressing objects:  64% (158/246)   [Kremote: Compressing objects:  65% (160/246)   [Kremote: Compressing objects:  66% (163/246)   [Kremote: Compressing objects:  67% (165/246)   [Kremote: Compressing objects:  68% (168/246)   [Kremote: Compressing objects:  69% (170/246)   [Kremote: Compressing objects:  70% (173/246)   [Kremote: Compressing objects:  71% (175/246)   [Kremote: Compressing objects:  72% (178/246)   [Kremote: Compressing objects:  73% (180/246)   [Kremote: Compressing objects:  74% (183/246)   [Kremote: Compressing objects:  75% (185/246)   [Kremote: Compressing objects:  76% (187/246)   [Kremote: Compressing objects:  77% (190/246)   [Kremote: Compressing objects:  78% (192/246)   [Kremote: Compressing objects:  79% (195/246)   [Kremote: Compressing objects:  80% (197/246)   [Kremote: Compressing objects:  81% (200/246)   [Kremote: Compressing objects:  82% (202/246)   [Kremote: Compressing objects:  83% (205/246)   [Kremote: Compressing objects:  84% (207/246)   [Kremote: Compressing objects:  85% (210/246)   [Kremote: Compressing objects:  86% (212/246)   [Kremote: Compressing objects:  87% (215/246)   [Kremote: Compressing objects:  88% (217/246)   [Kremote: Compressing objects:  89% (219/246)   [Kremote: Compressing objects:  90% (222/246)   [Kremote: Compressing objects:  91% (224/246)   [Kremote: Compressing objects:  92% (227/246)   [Kremote: Compressing objects:  93% (229/246)   [Kremote: Compressing objects:  94% (232/246)   [Kremote: Compressing objects:  95% (234/246)   [Kremote: Compressing objects:  96% (237/246)   [Kremote: Compressing objects:  97% (239/246)   [Kremote: Compressing objects:  98% (242/246)   [Kremote: Compressing objects:  99% (244/246)   [Kremote: Compressing objects: 100% (246/246)   [Kremote: Compressing objects: 100% (246/246), done.[K
+Receiving objects:   0% (1/283)   Receiving objects:   1% (3/283)   Receiving objects:   2% (6/283)   Receiving objects:   3% (9/283)   Receiving objects:   4% (12/283)   Receiving objects:   5% (15/283)   Receiving objects:   6% (17/283)   Receiving objects:   7% (20/283)   Receiving objects:   8% (23/283)   Receiving objects:   9% (26/283)   Receiving objects:  10% (29/283)   Receiving objects:  11% (32/283)   Receiving objects:  12% (34/283)   Receiving objects:  13% (37/283)   Receiving objects:  14% (40/283)   Receiving objects:  15% (43/283)   Receiving objects:  16% (46/283)   Receiving objects:  17% (49/283)   Receiving objects:  18% (51/283)   Receiving objects:  19% (54/283)   Receiving objects:  20% (57/283)   Receiving objects:  21% (60/283)   Receiving objects:  22% (63/283)   Receiving objects:  23% (66/283)   Receiving objects:  24% (68/283)   Receiving objects:  25% (71/283)   Receiving objects:  26% (74/283)   Receiving objects:  27% (77/283)   Receiving objects:  28% (80/283)   Receiving objects:  29% (83/283)   Receiving objects:  30% (85/283)   Receiving objects:  31% (88/283)   Receiving objects:  32% (91/283)   Receiving objects:  33% (94/283)   Receiving objects:  34% (97/283)   Receiving objects:  35% (100/283)   Receiving objects:  36% (102/283)   Receiving objects:  37% (105/283)   Receiving objects:  38% (108/283)   Receiving objects:  39% (111/283)   Receiving objects:  40% (114/283)   Receiving objects:  41% (117/283)   Receiving objects:  42% (119/283)   Receiving objects:  43% (122/283)   Receiving objects:  44% (125/283)   Receiving objects:  45% (128/283)   Receiving objects:  46% (131/283)   Receiving objects:  47% (134/283)   Receiving objects:  48% (136/283)   Receiving objects:  49% (139/283)   Receiving objects:  50% (142/283)   Receiving objects:  51% (145/283)   Receiving objects:  52% (148/283)   Receiving objects:  53% (150/283)   Receiving objects:  54% (153/283)   Receiving objects:  55% (156/283)   Receiving objects:  56% (159/283)   Receiving objects:  57% (162/283)   Receiving objects:  58% (165/283)   Receiving objects:  59% (167/283)   Receiving objects:  60% (170/283)   Receiving objects:  61% (173/283)   Receiving objects:  62% (176/283)   Receiving objects:  63% (179/283)   Receiving objects:  64% (182/283)   Receiving objects:  65% (184/283)   Receiving objects:  66% (187/283)   Receiving objects:  67% (190/283)   Receiving objects:  68% (193/283)   Receiving objects:  69% (196/283)   Receiving objects:  70% (199/283)   Receiving objects:  71% (201/283)   Receiving objects:  72% (204/283)   Receiving objects:  73% (207/283)   Receiving objects:  74% (210/283)   Receiving objects:  75% (213/283)   Receiving objects:  76% (216/283)   Receiving objects:  77% (218/283)   Receiving objects:  78% (221/283)   Receiving objects:  79% (224/283)   Receiving objects:  80% (227/283)   Receiving objects:  81% (230/283)   Receiving objects:  82% (233/283)   Receiving objects:  83% (235/283)   Receiving objects:  84% (238/283)   Receiving objects:  85% (241/283)   Receiving objects:  86% (244/283)   Receiving objects:  87% (247/283)   Receiving objects:  88% (250/283)   Receiving objects:  89% (252/283)   Receiving objects:  90% (255/283)   Receiving objects:  91% (258/283)   Receiving objects:  92% (261/283)   Receiving objects:  93% (264/283)   Receiving objects:  94% (267/283)   Receiving objects:  95% (269/283)   Receiving objects:  96% (272/283)   Receiving objects:  97% (275/283)   remote: Total 283 (delta 85), reused 151 (delta 25)[K
+Receiving objects:  98% (278/283)   Receiving objects:  99% (281/283)   Receiving objects: 100% (283/283)   Receiving objects: 100% (283/283), 1.66 MiB | 23.92 MiB/s, done.
+Resolving deltas:   0% (0/85)   Resolving deltas:   7% (6/85)   Resolving deltas:   9% (8/85)   Resolving deltas:  11% (10/85)   Resolving deltas:  12% (11/85)   Resolving deltas:  14% (12/85)   Resolving deltas:  16% (14/85)   Resolving deltas:  18% (16/85)   Resolving deltas:  20% (17/85)   Resolving deltas:  27% (23/85)   Resolving deltas:  30% (26/85)   Resolving deltas:  31% (27/85)   Resolving deltas:  34% (29/85)   Resolving deltas:  35% (30/85)   Resolving deltas:  37% (32/85)   Resolving deltas:  38% (33/85)   Resolving deltas:  44% (38/85)   Resolving deltas:  45% (39/85)   Resolving deltas:  47% (40/85)   Resolving deltas:  49% (42/85)   Resolving deltas:  52% (45/85)   Resolving deltas:  54% (46/85)   Resolving deltas:  58% (50/85)   Resolving deltas:  60% (51/85)   Resolving deltas:  61% (52/85)   Resolving deltas:  68% (58/85)   Resolving deltas:  69% (59/85)   Resolving deltas:  77% (66/85)   Resolving deltas:  78% (67/85)   Resolving deltas:  80% (68/85)   Resolving deltas:  81% (69/85)   Resolving deltas:  82% (70/85)   Resolving deltas:  88% (75/85)   Resolving deltas:  91% (78/85)   Resolving deltas:  96% (82/85)   Resolving deltas: 100% (85/85)   Resolving deltas: 100% (85/85), done.
+rblazej1@remote04:~/projects$ cd ~
+rblazej1@remote04:~$ ln -s projects/cs220 .
+ln: failed to create symbolic link './cs220': File exists
+rblazej1@remote04:~$ ls
+240		      cs120	 git-repos  lab5.c    T1.s	      v1.s
+addarray	      cs220	 hello	    ls.log    Templates       v.c
+Adders_Circuits.circ  cs240	 i240a	    lss.log   tinyproc2       Videos
+Arduino		      Desktop	 i240GP     Music     tinyproc2.circ  x.c
+assembler-lab.c       dir	 lab	    Pictures  tinyproc2.s
+cat.log		      Documents  lab10.asm  projects  tl.c
+crontab		      Downloads  lab1.txt   Public    tmp
+rblazej1@remote04:~$ cd projects
+rblazej1@remote04:~/projects$ ls
+cs220  cs240  i240a
+rblazej1@remote04:~/projects$ cd ..
+rblazej1@remote04:~$ cd ~/git-repos/cs220
+rblazej1@remote04:~/git-repos/cs220$ git pull
+/home/rblazej1/.bashrc: line 1: /home/umrigar/cs240/bin/student.rc: No such file or directory
+warning: no common commits
+remote: Enumerating objects: 283, done.[K
+remote: Counting objects:   0% (1/283)   [Kremote: Counting objects:   1% (3/283)   [Kremote: Counting objects:   2% (6/283)   [Kremote: Counting objects:   3% (9/283)   [Kremote: Counting objects:   4% (12/283)   [Kremote: Counting objects:   5% (15/283)   [Kremote: Counting objects:   6% (17/283)   [Kremote: Counting objects:   7% (20/283)   [Kremote: Counting objects:   8% (23/283)   [Kremote: Counting objects:   9% (26/283)   [Kremote: Counting objects:  10% (29/283)   [Kremote: Counting objects:  11% (32/283)   [Kremote: Counting objects:  12% (34/283)   [Kremote: Counting objects:  13% (37/283)   [Kremote: Counting objects:  14% (40/283)   [Kremote: Counting objects:  15% (43/283)   [Kremote: Counting objects:  16% (46/283)   [Kremote: Counting objects:  17% (49/283)   [Kremote: Counting objects:  18% (51/283)   [Kremote: Counting objects:  19% (54/283)   [Kremote: Counting objects:  20% (57/283)   [Kremote: Counting objects:  21% (60/283)   [Kremote: Counting objects:  22% (63/283)   [Kremote: Counting objects:  23% (66/283)   [Kremote: Counting objects:  24% (68/283)   [Kremote: Counting objects:  25% (71/283)   [Kremote: Counting objects:  26% (74/283)   [Kremote: Counting objects:  27% (77/283)   [Kremote: Counting objects:  28% (80/283)   [Kremote: Counting objects:  29% (83/283)   [Kremote: Counting objects:  30% (85/283)   [Kremote: Counting objects:  31% (88/283)   [Kremote: Counting objects:  32% (91/283)   [Kremote: Counting objects:  33% (94/283)   [Kremote: Counting objects:  34% (97/283)   [Kremote: Counting objects:  35% (100/283)   [Kremote: Counting objects:  36% (102/283)   [Kremote: Counting objects:  37% (105/283)   [Kremote: Counting objects:  38% (108/283)   [Kremote: Counting objects:  39% (111/283)   [Kremote: Counting objects:  40% (114/283)   [Kremote: Counting objects:  41% (117/283)   [Kremote: Counting objects:  42% (119/283)   [Kremote: Counting objects:  43% (122/283)   [Kremote: Counting objects:  44% (125/283)   [Kremote: Counting objects:  45% (128/283)   [Kremote: Counting objects:  46% (131/283)   [Kremote: Counting objects:  47% (134/283)   [Kremote: Counting objects:  48% (136/283)   [Kremote: Counting objects:  49% (139/283)   [Kremote: Counting objects:  50% (142/283)   [Kremote: Counting objects:  51% (145/283)   [Kremote: Counting objects:  52% (148/283)   [Kremote: Counting objects:  53% (150/283)   [Kremote: Counting objects:  54% (153/283)   [Kremote: Counting objects:  55% (156/283)   [Kremote: Counting objects:  56% (159/283)   [Kremote: Counting objects:  57% (162/283)   [Kremote: Counting objects:  58% (165/283)   [Kremote: Counting objects:  59% (167/283)   [Kremote: Counting objects:  60% (170/283)   [Kremote: Counting objects:  61% (173/283)   [Kremote: Counting objects:  62% (176/283)   [Kremote: Counting objects:  63% (179/283)   [Kremote: Counting objects:  64% (182/283)   [Kremote: Counting objects:  65% (184/283)   [Kremote: Counting objects:  66% (187/283)   [Kremote: Counting objects:  67% (190/283)   [Kremote: Counting objects:  68% (193/283)   [Kremote: Counting objects:  69% (196/283)   [Kremote: Counting objects:  70% (199/283)   [Kremote: Counting objects:  71% (201/283)   [Kremote: Counting objects:  72% (204/283)   [Kremote: Counting objects:  73% (207/283)   [Kremote: Counting objects:  74% (210/283)   [Kremote: Counting objects:  75% (213/283)   [Kremote: Counting objects:  76% (216/283)   [Kremote: Counting objects:  77% (218/283)   [Kremote: Counting objects:  78% (221/283)   [Kremote: Counting objects:  79% (224/283)   [Kremote: Counting objects:  80% (227/283)   [Kremote: Counting objects:  81% (230/283)   [Kremote: Counting objects:  82% (233/283)   [Kremote: Counting objects:  83% (235/283)   [Kremote: Counting objects:  84% (238/283)   [Kremote: Counting objects:  85% (241/283)   [Kremote: Counting objects:  86% (244/283)   [Kremote: Counting objects:  87% (247/283)   [Kremote: Counting objects:  88% (250/283)   [Kremote: Counting objects:  89% (252/283)   [Kremote: Counting objects:  90% (255/283)   [Kremote: Counting objects:  91% (258/283)   [Kremote: Counting objects:  92% (261/283)   [Kremote: Counting objects:  93% (264/283)   [Kremote: Counting objects:  94% (267/283)   [Kremote: Counting objects:  95% (269/283)   [Kremote: Counting objects:  96% (272/283)   [Kremote: Counting objects:  97% (275/283)   [Kremote: Counting objects:  98% (278/283)   [Kremote: Counting objects:  99% (281/283)   [Kremote: Counting objects: 100% (283/283)   [Kremote: Counting objects: 100% (283/283), done.[K
+remote: Compressing objects:   0% (1/246)   [Kremote: Compressing objects:   1% (3/246)   [Kremote: Compressing objects:   2% (5/246)   [Kremote: Compressing objects:   3% (8/246)   [Kremote: Compressing objects:   4% (10/246)   [Kremote: Compressing objects:   5% (13/246)   [Kremote: Compressing objects:   6% (15/246)   [Kremote: Compressing objects:   7% (18/246)   [Kremote: Compressing objects:   8% (20/246)   [Kremote: Compressing objects:   9% (23/246)   [Kremote: Compressing objects:  10% (25/246)   [Kremote: Compressing objects:  11% (28/246)   [Kremote: Compressing objects:  12% (30/246)   [Kremote: Compressing objects:  13% (32/246)   [Kremote: Compressing objects:  14% (35/246)   [Kremote: Compressing objects:  15% (37/246)   [Kremote: Compressing objects:  16% (40/246)   [Kremote: Compressing objects:  17% (42/246)   [Kremote: Compressing objects:  18% (45/246)   [Kremote: Compressing objects:  19% (47/246)   [Kremote: Compressing objects:  20% (50/246)   [Kremote: Compressing objects:  21% (52/246)   [Kremote: Compressing objects:  22% (55/246)   [Kremote: Compressing objects:  23% (57/246)   [Kremote: Compressing objects:  24% (60/246)   [Kremote: Compressing objects:  25% (62/246)   [Kremote: Compressing objects:  26% (64/246)   [Kremote: Compressing objects:  27% (67/246)   [Kremote: Compressing objects:  28% (69/246)   [Kremote: Compressing objects:  29% (72/246)   [Kremote: Compressing objects:  30% (74/246)   [Kremote: Compressing objects:  31% (77/246)   [Kremote: Compressing objects:  32% (79/246)   [Kremote: Compressing objects:  33% (82/246)   [Kremote: Compressing objects:  34% (84/246)   [Kremote: Compressing objects:  35% (87/246)   [Kremote: Compressing objects:  36% (89/246)   [Kremote: Compressing objects:  37% (92/246)   [Kremote: Compressing objects:  38% (94/246)   [Kremote: Compressing objects:  39% (96/246)   [Kremote: Compressing objects:  40% (99/246)   [Kremote: Compressing objects:  41% (101/246)   [Kremote: Compressing objects:  42% (104/246)   [Kremote: Compressing objects:  43% (106/246)   [Kremote: Compressing objects:  44% (109/246)   [Kremote: Compressing objects:  45% (111/246)   [Kremote: Compressing objects:  46% (114/246)   [Kremote: Compressing objects:  47% (116/246)   [Kremote: Compressing objects:  48% (119/246)   [Kremote: Compressing objects:  49% (121/246)   [Kremote: Compressing objects:  50% (123/246)   [Kremote: Compressing objects:  51% (126/246)   [Kremote: Compressing objects:  52% (128/246)   [Kremote: Compressing objects:  53% (131/246)   [Kremote: Compressing objects:  54% (133/246)   [Kremote: Compressing objects:  55% (136/246)   [Kremote: Compressing objects:  56% (138/246)   [Kremote: Compressing objects:  57% (141/246)   [Kremote: Compressing objects:  58% (143/246)   [Kremote: Compressing objects:  59% (146/246)   [Kremote: Compressing objects:  60% (148/246)   [Kremote: Compressing objects:  61% (151/246)   [Kremote: Compressing objects:  62% (153/246)   [Kremote: Compressing objects:  63% (155/246)   [Kremote: Compressing objects:  64% (158/246)   [Kremote: Compressing objects:  65% (160/246)   [Kremote: Compressing objects:  66% (163/246)   [Kremote: Compressing objects:  67% (165/246)   [Kremote: Compressing objects:  68% (168/246)   [Kremote: Compressing objects:  69% (170/246)   [Kremote: Compressing objects:  70% (173/246)   [Kremote: Compressing objects:  71% (175/246)   [Kremote: Compressing objects:  72% (178/246)   [Kremote: Compressing objects:  73% (180/246)   [Kremote: Compressing objects:  74% (183/246)   [Kremote: Compressing objects:  75% (185/246)   [Kremote: Compressing objects:  76% (187/246)   [Kremote: Compressing objects:  77% (190/246)   [Kremote: Compressing objects:  78% (192/246)   [Kremote: Compressing objects:  79% (195/246)   [Kremote: Compressing objects:  80% (197/246)   [Kremote: Compressing objects:  81% (200/246)   [Kremote: Compressing objects:  82% (202/246)   [Kremote: Compressing objects:  83% (205/246)   [Kremote: Compressing objects:  84% (207/246)   [Kremote: Compressing objects:  85% (210/246)   [Kremote: Compressing objects:  86% (212/246)   [Kremote: Compressing objects:  87% (215/246)   [Kremote: Compressing objects:  88% (217/246)   [Kremote: Compressing objects:  89% (219/246)   [Kremote: Compressing objects:  90% (222/246)   [Kremote: Compressing objects:  91% (224/246)   [Kremote: Compressing objects:  92% (227/246)   [Kremote: Compressing objects:  93% (229/246)   [Kremote: Compressing objects:  94% (232/246)   [Kremote: Compressing objects:  95% (234/246)   [Kremote: Compressing objects:  96% (237/246)   [Kremote: Compressing objects:  97% (239/246)   [Kremote: Compressing objects:  98% (242/246)   [Kremote: Compressing objects:  99% (244/246)   [Kremote: Compressing objects: 100% (246/246)   [Kremote: Compressing objects: 100% (246/246), done.[K
+Receiving objects:   0% (1/283)   Receiving objects:   1% (3/283)   Receiving objects:   2% (6/283)   Receiving objects:   3% (9/283)   Receiving objects:   4% (12/283)   Receiving objects:   5% (15/283)   Receiving objects:   6% (17/283)   Receiving objects:   7% (20/283)   Receiving objects:   8% (23/283)   Receiving objects:   9% (26/283)   Receiving objects:  10% (29/283)   Receiving objects:  11% (32/283)   Receiving objects:  12% (34/283)   Receiving objects:  13% (37/283)   Receiving objects:  14% (40/283)   Receiving objects:  15% (43/283)   Receiving objects:  16% (46/283)   Receiving objects:  17% (49/283)   Receiving objects:  18% (51/283)   Receiving objects:  19% (54/283)   Receiving objects:  20% (57/283)   Receiving objects:  21% (60/283)   Receiving objects:  22% (63/283)   Receiving objects:  23% (66/283)   Receiving objects:  24% (68/283)   Receiving objects:  25% (71/283)   Receiving objects:  26% (74/283)   Receiving objects:  27% (77/283)   Receiving objects:  28% (80/283)   Receiving objects:  29% (83/283)   Receiving objects:  30% (85/283)   Receiving objects:  31% (88/283)   Receiving objects:  32% (91/283)   Receiving objects:  33% (94/283)   Receiving objects:  34% (97/283)   Receiving objects:  35% (100/283)   Receiving objects:  36% (102/283)   Receiving objects:  37% (105/283)   Receiving objects:  38% (108/283)   Receiving objects:  39% (111/283)   Receiving objects:  40% (114/283)   Receiving objects:  41% (117/283)   Receiving objects:  42% (119/283)   Receiving objects:  43% (122/283)   Receiving objects:  44% (125/283)   Receiving objects:  45% (128/283)   Receiving objects:  46% (131/283)   Receiving objects:  47% (134/283)   Receiving objects:  48% (136/283)   Receiving objects:  49% (139/283)   Receiving objects:  50% (142/283)   Receiving objects:  51% (145/283)   Receiving objects:  52% (148/283)   Receiving objects:  53% (150/283)   Receiving objects:  54% (153/283)   Receiving objects:  55% (156/283)   Receiving objects:  56% (159/283)   Receiving objects:  57% (162/283)   Receiving objects:  58% (165/283)   Receiving objects:  59% (167/283)   Receiving objects:  60% (170/283)   Receiving objects:  61% (173/283)   Receiving objects:  62% (176/283)   Receiving objects:  63% (179/283)   Receiving objects:  64% (182/283)   Receiving objects:  65% (184/283)   Receiving objects:  66% (187/283)   Receiving objects:  67% (190/283)   Receiving objects:  68% (193/283)   Receiving objects:  69% (196/283)   Receiving objects:  70% (199/283)   Receiving objects:  71% (201/283)   Receiving objects:  72% (204/283)   Receiving objects:  73% (207/283)   Receiving objects:  74% (210/283)   Receiving objects:  75% (213/283)   Receiving objects:  76% (216/283)   Receiving objects:  77% (218/283)   Receiving objects:  78% (221/283)   Receiving objects:  79% (224/283)   Receiving objects:  80% (227/283)   Receiving objects:  81% (230/283)   Receiving objects:  82% (233/283)   Receiving objects:  83% (235/283)   Receiving objects:  84% (238/283)   Receiving objects:  85% (241/283)   Receiving objects:  86% (244/283)   Receiving objects:  87% (247/283)   Receiving objects:  88% (250/283)   Receiving objects:  89% (252/283)   Receiving objects:  90% (255/283)   Receiving objects:  91% (258/283)   Receiving objects:  92% (261/283)   Receiving objects:  93% (264/283)   Receiving objects:  94% (267/283)   Receiving objects:  95% (269/283)   Receiving objects:  96% (272/283)   Receiving objects:  97% (275/283)   remote: Total 283 (delta 85), reused 151 (delta 25)[K
+Receiving objects:  98% (278/283)   Receiving objects:  99% (281/283)   Receiving objects: 100% (283/283)   Receiving objects: 100% (283/283), 1.66 MiB | 14.77 MiB/s, done.
+Resolving deltas:   0% (0/85)   Resolving deltas:   4% (4/85)   Resolving deltas:   5% (5/85)   Resolving deltas:   8% (7/85)   Resolving deltas:  10% (9/85)   Resolving deltas:  11% (10/85)   Resolving deltas:  12% (11/85)   Resolving deltas:  14% (12/85)   Resolving deltas:  16% (14/85)   Resolving deltas:  18% (16/85)   Resolving deltas:  28% (24/85)   Resolving deltas:  29% (25/85)   Resolving deltas:  30% (26/85)   Resolving deltas:  31% (27/85)   Resolving deltas:  34% (29/85)   Resolving deltas:  36% (31/85)   Resolving deltas:  37% (32/85)   Resolving deltas:  38% (33/85)   Resolving deltas:  44% (38/85)   Resolving deltas:  45% (39/85)   Resolving deltas:  47% (40/85)   Resolving deltas:  49% (42/85)   Resolving deltas:  52% (45/85)   Resolving deltas:  54% (46/85)   Resolving deltas:  58% (50/85)   Resolving deltas:  60% (51/85)   Resolving deltas:  62% (53/85)   Resolving deltas:  68% (58/85)   Resolving deltas:  69% (59/85)   Resolving deltas:  77% (66/85)   Resolving deltas:  78% (67/85)   Resolving deltas:  80% (68/85)   Resolving deltas:  81% (69/85)   Resolving deltas:  82% (70/85)   Resolving deltas:  88% (75/85)   Resolving deltas:  91% (78/85)   Resolving deltas:  96% (82/85)   Resolving deltas: 100% (85/85)   Resolving deltas: 100% (85/85), done.
+From ssh://remote.cs.binghamton.edu/~umrigar/git-repos/cs220
+ + 6900a73...65dbe30 master     -> origin/master  (forced update)
+fatal: refusing to merge unrelated histories
+rblazej1@remote04:~/git-repos/cs220$ cd ..
+rblazej1@remote04:~/git-repos$ cd ..
+rblazej1@remote04:~$ cd cs220
+rblazej1@remote04:~/cs220$ git log -5
+[?1h=[33mcommit 6900a734b443595acc201736d8728961d5e6410b[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m[m
+Author: zerksis umrigar <umrigar@binghamton.edu>[m
+Date:   Fri Nov 22 12:40:40 2019 -0500[m
+[m
+    update pipelining[m
+[m
+[33mcommit 0dbb6106a2fa2c998daa363f2040e5f86cc88a0c[m[m
+Author: zerksis umrigar <umrigar@binghamton.edu>[m
+Date:   Fri Nov 22 10:12:52 2019 -0500[m
+[m
+    added hw4[m
+[m
+[33mcommit daed271ccc3767da61b6cd53f42d5f80304b81da[m[m
+Author: zerksis umrigar <umrigar@binghamton.edu>[m
+Date:   Fri Nov 22 10:12:19 2019 -0500[m
+[m
+    rm debug output[m
+[m
+[33mcommit 0d96c9ab84213bb3528ab0b7d2860410e26d128a[m[m
+Author: zerksis umrigar <umrigar@binghamton.edu>[m
+Date:   Fri Nov 22 10:11:45 2019 -0500[m
+[m
+    added pipelining[m
+[m
+[33mcommit 7a54ebe93b95236ccdc6d731413381834b92db4d[m[m
+:[K[K[K:[K[K:[K[K[7mNo next tag  (press RETURN)[27m[26;1H[K[K:[K[K[?1l>rblazej1@remote04:~/cs220$ git log -3 labs/lab0.umt
+fatal: ambiguous argument 'labs/lab0.umt': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+rblazej1@remote04:~/cs220$ cd ..
+rblazej1@remote04:~$ cd /.profile
+bash: cd: /.profile: No such file or directory
+rblazej1@remote04:~$ ls
+240		      cs120	 git-repos  lab5.c    T1.s	      v1.s
+addarray	      cs220	 hello	    ls.log    Templates       v.c
+Adders_Circuits.circ  cs240	 i240a	    lss.log   tinyproc2       Videos
+Arduino		      Desktop	 i240GP     Music     tinyproc2.circ  x.c
+assembler-lab.c       dir	 lab	    Pictures  tinyproc2.s
+cat.log		      Documents  lab10.asm  projects  tl.c
+crontab		      Downloads  lab1.txt   Public    tmp
+rblazej1@remote04:~$ cdd \[K[K[K[Kd ~/.profile
+bash: cd: /home/rblazej1/.profile: Not a directory
+rblazej1@remote04:~$ cd ..
+rblazej1@remote04:/home$ ls
+aabrey1    cquigle1	     jcurtin4	   molavar1	      shegde1
+aalbane6   cs350	     jdaley2	   monalisa	      shuhong
+aambilw1   cs441-test	     jdavis75	   moswald1	      siftekh1
+aamer	   csabet01_oc	     jdeflor1	   mozsoy	      sigda
+aandhar2   csabet02_oc	     jderder1	   mparlaw1	      sikdar
+aanveka2   csabet03_oc	     jditkof1	   mpatel43	      simple
+aaykut1    cschnei3	     jdua1	   mperaza1	      simplepath
+abalkum    csimak1	     jdunn14	   mpinz1	      sjanasw1
+abarrie7   cs-ipc	     jedouar1	   mreale	      sjoshi14
+abelmna1   csmit125	     jeipp1	   mriver25	      skaldat1
+abeltre1   csperry1	     jelkert1	   mrldata	      skalidi1
+abet	   csticket	     jelwell	   mrosato	      skbu007
+abetrev    csweb	     jelwell1	   mroshid1	      skolhap1
+abettest   ctran20	     jeymer1	   mruffne1	      skorade1
+abhagwa1   ctufekc1	     jfeinla1	   msarica1	      skothap1
+abharan1   cutler	     jferrin1	   mschult7	      skremli1
+abhat3	   cwetzel2	     jgalarn1	   mschutz2	      skumar
+abixby1    cwetzel3	     jgallia1	   msha		      skunz1
+abloodg1   cwickiz1	     jgarc111	   mshakar1	      slellis1
+abommin1   cwolcot1	     jgatmai1	   msheldo2	      sleng1
+aburke5    cwong11	     jgoldb42	   msim		      slewis47
+acanino1   cwong83	     jgordo39	   mslocum1	      slin100
+acarter6   cyang58	     jgrocci2	   msweb	      slin111
+acass2	   cybersec	     jgumien1	   mtemkin2	      sliu
+acaulfi1   czhang27	     jgwak1	   mthakka2	      sliu178
+acersos1   czhou5	     jhaller1	   mthanga1	      sliu22
+achaud12   dadler4	     jhart3	   mtullo1	      sloscal1
+achaud15   daldric1	     jhartog1	   mvallad1	      smandal5
+achaudh9   dallen9	     jhastie1	   mvani1	      smanne1
+achavan4   danzelo1	     jherath1	   mwarfor1	      smartpark
+achen172   davehall	     jhertik1	   mweb		      smasara1
+achen221   davehallldap      jhicks	   mwerner7	      smestry1
+acheseb1   davidl	     jhuyghu1	   mwilli78	      smircha1
+achhabr1   dbalkan	     jivers1	   myan28	      smoore4
+achotal1   dbottch1	     jjacob44	   myuksek1	      smorram1
+aclancy1   dcerchi1	     jjeanba2	   mz-matlab	      smorri11
+acmweb	   dchhabd1	     jjjcart	   nael		      smukka1
+acohen13   dcordei1	     jkassne1	   nananth1	      snagarak1
+acohen89   ddas1	     jle10	   nanohub	      snimhan1
+acullo1    ddefazi1	     jlefer1	   nate		      software
+acurrer1   ddemicc1	     jleone5	   nayan1	      soshay1
+adavid17   ddesai9	     jli452	   naydemi2	      spappal2
+adesu1	   ddoddag1	     jli461	   naydin2	      sparra2
+adhruv1    ddong8	     jli520	   nayef	      sparuch1
+admread    ddossie1	     jliebe12	   nbethan1	      spatwa1
+adnan	   devtyushkin	     jlin269	   nboeker1	      spun1
+adreher1   dfan2	     jlin322	   nboyd3	      sraghav2
+advweb	   dferna15	     jliu212	   nburzyn1	      srahma51
+aeker1	   dfitzge3	     jloew	   nchan14	      srally1
+aevans1    dfrid1	     jlouie2	   ncilsal2	      sraut1
+afarrel3   dgarden1	     jlu56	   ncorvi1	      srazak
+afelsen3   dgeorge7	     jmaiolo1	   ncurmi1	      srevade1
+afergus6   dgriffith1	     jmcmah10	   ncusuma2	      sriram
+aferrei3   dguo13	     jmeguir1	   ndedios1	      srosari4
+agarcia3   dharper1	     jmessin2	   ndefeli2	      srupnar1
+agarcia4   dhuang43	     jmitche6	   ndeshmu1	      ssahabh1
+agarrit1   dickman	     jmohrma1	   nfazio1	      ssahani1
+agawali1   dima		     jmontgo4	   nferna11	      ssanaga1
+ageorg39   djacobs7	     jmontgo5	   NFS11	      ssarems1
+agermos1   djagtap1	     jnettun1	   ngarg3	      ssawwan1
+agill10    djhender	     jocampo1	   ngawade1	      ssayyad1
+agiunta4   djwillia	     joommen1	   ngreene5	      sscott36
+agjonba1   dkim17	     joyedap1	   ngrosso1	      ssenkes1
+agoetz3    dkunkel	     jpan33	   ngujar1	      ssenthil
+agoncal2   dlam15	     jparikh1	   ngupta4	      sshah90
+agopala2   dlambro1	     jpark349	   nhofman1	      ssharm53
+agrace2    dli114	     jpatil2	   nilton	      sshin
+agreenb3   dlin88	     jperrot3	   nkim80	      ssingh99
+agummal1   dlockye1	     jphilem1	   nkimura	      ssivaku1
+ahamdi1    dlum1	     jracer1	   nkopetz1	      ssultan6
+ahavill1   dlundgren	     jramli1	   nli19	      sswetha
+aheffer1   dlyko1	     jraskin3	   nmarman1	      stapadi1
+ahodges2   dmacejk1	     jrosen46	   nmarti19	      star
+ahoriha1   dmaisur1	     jrosswog	   nmascio3	      steflik
+ajain13    dmakhka1	     jrothbe3	   nmishra1	      stoke1
+ajain35    dmeisel1	     jruan6	   nmonast1	      studio
+ajasper    dmosess1	     jrusso26	   nmulier1	      studio.nobackup
+ajezior1   dmu1		     jryder	   npatel62	      sunyibo
+ajinete1   doneal1	     jsanch49	   npatel64	      svibhut1
+ajohan78   dorbach1	     jscatta1	   npatil5	      svishwa2
+ajoshi1    dpaskal1	     jschind1	   npelleg1	      swaghma1
+akafore1   dpatil2	     jschmit2	   npeters1	      swang130
+akancha1   dpaul12	     jschwa77	   npoda1	      swang206
+akapur4    dpetzol2	     jscott59	   nraj1	      sweimer1
+akenjal1   dpham4	     jseiber1	   nreisch1	      sweintr4
+akenned7   dreitan1	     jshaikh1	   nrogosz1	      swu147
+akenned8   dreyes12	     jsharke	   nruizto1	      syeung10
+akhot1	   drichards1	     jsheeha2	   nsamant1	      syonet1
+akozina2   drseuss	     jshin75	   nsane3885	      sysadmin
+akulka17   dryan6	     jsimone1	   nshea1	      szaman5
+akumar34   dschroe1	     jsinger9	   nstecyn1	      szhai2
+akunnat1   dschust2	     jskovro1	   ntinen	      szhan188
+akunz3	   dskoda1	     jstanle2	   nuruchi1	      szhang
+alal2	   dtapiap1	     jstein27	   nvander1	      szhou55
+alee884    dtelson1	     jsteinberg    nwallin1	      szhu5
+alee889    dthakur1	     jstrohm1	   nzheng7	      tagrawa1
+alevenb1   dtierne2	     jstruck1	   oakgrove	      talon1
+aliu81	   dtimmer1	     jsu6	   oalamut1	      tameesh
+aliu86	   dtownle1	     jsutton3	   ocummin1	      tbabako1
+alongo5    dwalcot1	     jswift3	   ofeyzul1	      tbarten1
+amadnic2   dwalter2	     jszacha1	   oiffert1	      tbartens
+amanos1    dyang32	     jterner1	   okilic1	      tbhagoo1
+amarchi2   dyip2	     jthakka1	   okulkar4	      tbonagu1
+amathe13   dzhang46	     jthoma64	   onur		      tbrentar
+amccart9   eadler1	     jtricoz1	   oolojed1	      tbruck1
+amchugh2   eaghaja1	     jvail1	   optiweb	      tchan29
+amcmanu4   eaktas	     jvitale5	   osnetsvn	      tchan30
+ameya	   ealdreabi	     jwang36	   osweb	      tcheng8
+amillik1   eates1	     jweacho1	   oudawan1	      tchu4
+amishr11   ebasan1	     jweng8	   oyesufu1	      tdevadit
+anabavi1   ebecker2	     jwetzel1	   pacts	      test
+anand	   ebenz1	     jwhitak4	   pdes		      tfasano1
+anayak2    eborzil1	     jwhite48	   pdeshpa2	      tgabrie2
+aneeman    ebreban1	     jwill128	   pdeshpa3	      tgilber5
+aneesh	   echen100	     jwolter1	   pdexter1	      tgisi1
+ang57	   eciraco1	     jwong123	   pdonnel1	      tgonzag1
+anikam1    ecodrin1	     jwong153	   pfeng1	      tgranad2
+ankit	   ecoolid1	     jwong155	   phdweb	      tgrusze1
+apatel	   edede1	     jwoyevo1	   phil		      tgundel1
+apateri1   edurney1	     jwu6	   phmsvn	      tgurung2
+aperlow1   eezor1	     jyadav1	   pixelcode	      thalai1
+aplotko1   efergus3	     jyao	   pkandhi1	      thoa1
+apoirie1   efranci7	     jyao6	   pkapoor2	      thorowi1
+aputnal1   egeorge8	     jyoo45	   pkariya1	      thung1
+aquach1    egreene4	     jyuan39	   pkarthi1	      thur1
+arahma	   ehaddad1	     jzee2019	   pkaushi1	      ticket
+aravind    ehuang35	     jzhang	   plin11	      tkatz1
+arizzo10   eintski1	     kagyapo1	   plnu2	      tkump1
+artir	   ejang1	     kang	   plonkar1	      tlandiv1
+arubel2    ekadiog1	     kartik	   pmadden	      tli16
+asahai1    elancer1	     kbahulkar	   pmaino1	      tliu76
+asawant2   elanger4	     kbaumst2	   pmcgoug1	      tloja1
+asawwal1   eleigh1	     kchiu	   ppagar1	      tlucher1
+aschild1   elurye1	     kcitlak1	   pparmar2	      tman1
+aschwa30   emaione1	     kcollin9	   ppatel3	      tmarder1
+aselvan1   emattison	     kdayala1	   ppatel95	      tmarti12
+asen4	   emergepl	     kdeshpa5	   ppatil7	      tnoguch1
+aservet1   emichau2	     kdh	   ppawar3	      tpeck1
+asharif1   emuja1	     kdoughe2	   ppriyam1	      tpmsim
+asharm14   engage	     kdublin1	   prasanna	      tramos3
+asharm47   epona	     kenriqu1	   preddir1	      trasal1
+ashimiz1   epotapo1	     ketheri2	   project	      trecupe1
+ashimiz2   erdil	     kfang2	   projects	      tredban1
+ashinde3   eshapir9	     kferna11	   projects.nobackup  truiz1
+asing134   estern7	     kfratto1	   psaha4	      tsolime1
+asirota3   et		     kgaffne1	   psammon1	      tsrivas1
+astensl1   eterrac1	     kgajwan1	   psehraw1	      tstache1
+astjohn    etilden	     kgell1	   psemegr1	      tton1
+astrong3   eventu10	     kghose	   psilves1	      ttrigue1
+asujkov1   evorosh1	     kgiampo1	   psin		      twellin1
+asultan2   eway1	     kgoel1	   psinha1	      twilli81
+atanriv1   eyalcin1	     kgrays1	   ptanpur1	      twojtuk1
+ataver10   faculty	     khaled	   ptilley1	      twrigh13
+ateixei1   faculty.nobackup  khanson3	   puppula1	      txu
+athaile1   facweb	     kharras	   pvalenta	      tzhao7
+athakur2   fafram1	     khill9	   pwakodi1	      udeshpa1
+atiwari3   fahmed35	     khirana1	   pwalke1	      umrigar
+atom2	   falmato1	     khsieh3	   pwang22	      upe
+atweedy1   fantona1	     kjayapr1	   pweb		      upuvvad1
+avanroi1   fbrione1	     kjones47	   pwilber1	      usatlas1
+avenetos1  fchai1	     kkasara1	   pyang	      usatlas2
+avinan	   femmanu1	     kkoka1	   pzhao3	      uscms01
+aviswan3   find		     kkulkar3	   qlin32	      uscms02
+avora4	   fitz		     kkumawa1	   qpietri1	      vbadagu1
+awalley1   fmri		     kkurtz	   qxiong1	      vbakshi1
+awaring1   foreman	     kliu20	   qzayats1	      vbandew1
+awilso16   forweb	     klu38	   qzhang61	      vbeauge1
+aworm1	   fsmith6	     kmahmou1	   raj		      vbhosal1
+ayenugu1   fthomas3	     kmanriq1	   rambast1	      vcatane1
+baltar	   gadu		     kmaynar2	   ramsurat1	      vchaska1
+bamoate1   gaic		     kmore4	   rbadada1	      vent-web
+barana1    gaming	     kmoshie1	   rberlan1	      vhuynh3
+baranof1   garrison	     knadeem1	   rbhowmik	      vinkolar
+barry	   gbanaag1	     knip1	   rblazej1	      vkumari1
+bbane1	   gbejara1	     kokoye1	   rcasano1	      vlsiweb
+bbrea1	   gbenyis1	     koneill7	   rchowda1	      vmalcev1
+bbuchan1   gbiyani1	     kong	   rcomerf1	      vmunish1
+bchadha1   gchen21	     kpatter5	   rdalipo1	      voddo1
+bchan53    gcrl		     kphill11	   rdelval1	      vragovs1
+bchaney1   geert	     kpierce5	   rdhuri1	      vsadune1
+bchen114   ghlp		     kpollic1	   reckert	      vsingh2
+bchoudh4   ghose	     kramana1	   regress	      vtran6
+bchrobot   ghyan	     kruan1	   remadm	      vyadav1
+bciarav1   gkatchi1	     ksaini1	   rerinfo1	      watadv
+bdemirc1   gkumar1	     ksawant1	   reswara1	      wbezena1
+bdeore1    gliang6	     kstigle1	   reu		      wcastil5
+bdevrie1   gliu10	     ksun1	   reu09	      wcornej1
+bdikmen1   gliu14	     kthote1	   reustac1	      wdai
+beaumont   globus	     ktiao1	   rfujita1	      wdetorr1
+besenga1   gluo1	     kusovski	   rgeary1	      wduan1
+bestus1    gmyers	     kvartak2	   rgirong1	      weinscgg
+bfox6	   gorofin1	     kwallac6	   rgollap1	      welu
+bharari1   grad		     kwan2	   rgonzal	      whan11
+bhogan9    grad.nobackup     kwelche1	   rhainin1	      whuebne1
+bkeuria1   grase	     kwill113	   rhossai9	      wkenned1
+bklayma1   grattih1	     kwrite1	   richardsond	      wliu5
+blackburn  gredozu1	     kyi3	   rimbro1	      wliu68
+blee75	   grid		     lander	   rjoseph3	      wmeng
+bliebe1    gridex	     larson	   rkaur21	      wni
+bliew1	   gridweb	     lcanale2	   rkelley2	      wrusso2
+blong	   gsivana1	     lcoats1	   rklein14	      wtung2
+bmannin2   gsoweb	     ldallas1	   rkugver1	      wyang
+bmarti38   gsteinb1	     ldo	   rkulka22	      wyang53
+bmatlak1   gstodda1	     legion	   rkyatha1	      wyong1
+bmatzel1   gtan		     legion2	   rlangen1	      wzhao1
+bni2	   guydosh	     lenny	   rlauter1	      xchen269
+bpoliks    gvalenc2	     lgrandh1	   rlevass1	      xchen276
+bpreise1   gwang23	     lhsueh1	   rmarvin1	      xgao1
+brathke1   gwilber1	     lijun	   rmccaul1	      xgarcia2
+brichar7   gwint1	     liymn	   rmccorm4	      xianli
+brobergj   gxu15	     lkollur1	   rmei6	      xluo22
+brood	   gyerrad1	     lkrym1	   rmeliti1	      xpeng
+brose7	   halzein1	     llasurd1	   rmittal1	      xshi1
+bsadhna1   haygan1	     llu17	   rmusale1	      xu_haohang
+bschwar9   hbagdi1	     lmavare1	   rnakaha2	      xwei
+bsendir1   hbrown10	     lmickel2	   rnatara2	      xwu30
+bsuzuki1   hburkha1	     lmurph13	   robotics	      xwu9
+bsweet2    hcorett1	     lok	   rosew	      xxia9
+btaylor1   hdesai1	     lornawel	   rpena9	      xyu44
+bugzilla   head		     lpancoa1	   rquinli1	      xzhan211
+bwalke10   hebner1	     lrosenb1	   rraguso1	      xzhan215
+bwang2	   hfu11	     lsc01	   rrausha1	      xzhang7
+byan2	   hgarg1	     lsearsangel   rriley	      xzhang99
+byang20    hjia3	     lsmith61	   rsaptar2	      yanwang
+bzee1	   hkang	     lsunny1	   rsaraf1	      yaoliu
+bzhang73   hkulkar1	     ltaveir1	   rsaxena3	      ybai4
+bzhao10    hlauder1	     lwisdom1	   rsayers1	      ychandi1
+cadathlon  hlee199	     lyadagi1	   rshand1	      ychen161
+canlin	   hlojano1	     lyu	   rsharpe1	      yding25
+capsweb    hlum1	     maber1	   rshendl1	      yegilme1
+cauchym    hmahaja1	     maguila2	   rsmith23	      yguo71
+cbanvar1   hmulla1	     mallingt	   rsomapu1	      yhan1
+cbartol1   hoda		     maple	   rsumit	      yhu15
+cbehan1    hoeppner	     marsene1	   rtalukd1	      yhu92
+cbond2	   hpacher1	     marss86	   rtes-mc	      yingsun
+cbrispo1   hparmar1	     marss-risc-v  rthete1	      yjagda1
+cbrugna1   hpham3	     marss-riscv   rwang4	      yjiang5
+cchen17    hqin4	     marysomma1    rwright3	      yjun1
+cchen8	   hramesh1	     matlab	   ryder	      ykucuk1
+cchiauz1   hrasal1	     maziz3	   rzhang	      yli241
+cchoi20    hribic1	     mbagonis5	   sagrawa4	      yli435
+ccipp1	   hroeder1	     mbellus1	   sahsan5	      ylin
+ccruz31    hsloan1	     mbradsh3	   salqaht1	      ylin153
+ccui5	   hstein6	     mbrunel1	   sameer	      yliu158
+ccui7	   huilu	     mchen12	   samgrid	      yliu401
+cdai3	   hvadoda1	     mcohen76	   samiri1	      ylu0
+cdaware1   hwang161	     mcole8	   samoore	      ylyu2
+cdexter1   hxiao3	     mdamiat1	   sanku1	      ypan3
+cdf	   hxiao4	     mdelgad1	   santobu	      ysun106
+cdimegl1   hyang51	     mdevend1	   satoshi	      ytang4
+cdonovi1   hyi2		     mdobies1	   saurabh	      ytao15
+cdowdle1   hzeng	     meng	   sazarae1	      yteng1
+cfiutak1   hzeng8	     merwyn	   sbadri1	      ywong14
+cgenet1    hzhu1	     mfarrel8	   sbailey6	      yxu
+cguo9	   hzou1	     mforcella	   sbange1	      yyang200
+cgupta	   ids-web	     mfoster7	   sbdc		      yyang202
+chanusa    igirald1	     mghayoumi	   sbengal2	      yzhan202
+chao	   igomez1	     mgogats1	   sbettad1	      yzhan401
+cherna19   igoreli1	     mgomez4	   sblack3	      yzhang25
+chess2	   iliano	     mgovinda	   sbohn1	      yzhang8
+chouck	   indangered	     mgreen	   sbommal1	      zadorna1
+chuang31   intrieri	     mgrullo1	   sbravo1	      zdu
+ciweb	   iperdom1	     mgupta3	   sbrokal1	      zfadika
+cjenkin1   isarfat1	     mhamilt7	   scanavan	      zfrankl1
+cjian1	   israat	     mhan6	   schaska1	      zguo
+cjoaqui1   ivdgl	     mhems1	   schinch1	      zhangy
+ckshirs1   iwobi	     mherna72	   scraver	      zhangying
+ckugler1   jabbott3	     mhubli1	   sdenman1	      zhongfei
+ckulkar2   jalbert5	     mike	   sdepasc1	      zhuang28
+clandgr1   jalexa10	     millerti	   sdesai12	      ziegler
+cli22	   jamjoom	     mis	   sdesai13	      zkazemi1
+clin18	   jan20	     mjain8	   sdesai14	      zli137
+clindsa1   jarnold5	     mjiang39	   sdias1	      zli160
+cliu118    jarora2	     mkayaalp	   sdoddam1	      zlin2
+clow1	   jascher3	     mkhoman1	   sdoski1	      zlin89
+cmachaf1   jawayan1	     mkubisa1	   sdss		      zmarian1
+cmcborr1   jbabbit1	     mkyea1	   secarch	      zmonks1
+cmmiller   jbailey8	     mlannin1	   secweb	      znasir1
+cmoane1    jbarkov1	     mlatypo1	   sforker1	      znisbet1
+cmontgo1   jbarret3	     mlewis	   sgallag3	      zqiu4
+cmoore2    jbednasz	     mlin71	   sgampal1	      zseymou1
+cmunro1    jburns11	     mliu56	   sgcpu	      zshu1
+cnnadi1    jcadett1	     mlrg	   sgowdra1	      zwang252
+cobiora2   jcen3	     mmangal1	   sgreenb8	      zwen7
+colinb	   jchen441	     mmcmah19	   sgrimm2	      zzhan218
+cpainte1   jchen606	     mmillar3	   shalaha1	      zzhang27
+cpan16	   jchen610	     mmille60	   shan		      zzheng39
+cpandit1   jcipoll1	     mmuffol1	   shane	      zzhou60
+cpingal1   jcoddin1	     mnorton1	   shanson1
+cquelle3   jcope1	     mobicom2016   shanuma1
+rblazej1@remote04:/home$ cd ~./[K[K/.profile
+bash: cd: /home/rblazej1/.profile: Not a directory
+rblazej1@remote04:/home$ cd rblazej1
+rblazej1@remote04:~$ ls
+240		      cs120	 git-repos  lab5.c    T1.s	      v1.s
+addarray	      cs220	 hello	    ls.log    Templates       v.c
+Adders_Circuits.circ  cs240	 i240a	    lss.log   tinyproc2       Videos
+Arduino		      Desktop	 i240GP     Music     tinyproc2.circ  x.c
+assembler-lab.c       dir	 lab	    Pictures  tinyproc2.s
+cat.log		      Documents  lab10.asm  projects  tl.c
+crontab		      Downloads  lab1.txt   Public    tmp
+rblazej1@remote04:~$ [Krblazej1@remote04:~$ [Krblazej1@remote04:~$ cd projects
+rblazej1@remote04:~/projects$ git clone https://github.com/rblazej1/i220b.git
+Cloning into 'i220b'...
+remote: Enumerating objects: 3, done.[K
+remote: Counting objects:  33% (1/3)[Kremote: Counting objects:  66% (2/3)[Kremote: Counting objects: 100% (3/3)[Kremote: Counting objects: 100% (3/3), done.[K
+remote: Compressing objects:  50% (1/2)[Kremote: Compressing objects: 100% (2/2)[Kremote: Compressing objects: 100% (2/2), done.[K
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0[K
+Unpacking objects:  33% (1/3)   Unpacking objects:  66% (2/3)   Unpacking objects: 100% (3/3)   Unpacking objects: 100% (3/3), done.
+rblazej1@remote04:~/projects$ ls
+cs220  cs240  i220b  i240a
+rblazej1@remote04:~/projects$ cd i220b
+rblazej1@remote04:~/projects/i220b$ ls
+README.md
+rblazej1@remote04:~/projects/i220b$ mkdir submit
+rblazej1@remote04:~/projects/i220b$ l[Kcd ..
+rblazej1@remote04:~/projects$ cd ..[K[K[K[K[Kcd i22ob
+bash: cd: i22ob: No such file or directory
+rblazej1@remote04:~/projects$ cd 220[K[K[Ki220b
+rblazej1@remote04:~/projects/i220b$ ls
+README.md  submit
+rblazej1@remote04:~/projects/i220b$ cd ..
+rblazej1@remote04:~/projects$ cd i220b
+rblazej1@remote04:~/projects/i220b$ git status -s
+rblazej1@remote04:~/projects/i220b$ git commit -a -m "[K'completed lab1[K0'
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+rblazej1@remote04:~/projects/i220b$ git push
+Username for 'https://github.com': rblazje1   ej1
+Password for 'https://rblazej1@github.com': 
+Everything up-to-date
+rblazej1@remote04:~/projects/i220b$ cd ..
+rblazej1@remote04:~/projects$ cd ..
+rblazej1@remote04:~$ ls -dl ~/cd220[K[K[K[Ks220 ~/i220b
+ls: cannot access '/home/rblazej1/i220b': No such file or directory
+lrwxrwxrwx 1 rblazej1 rblazej1 15 Aug 29  2019 /home/rblazej1/cs220 -> git-repos/cs220
+rblazej1@remote04:~$ ln -s ~/projects/i220b
+rblazej1@remote04:~$ ln -s ~/projects/i220b .
+ln: failed to create symbolic link './i220b': File exists
+rblazej1@remote04:~$ ln -s ~/projects/i220b .[Ks -dl ~/cs220 ~/i220b
+lrwxrwxrwx 1 rblazej1 rblazej1 15 Aug 29  2019 /home/rblazej1/cs220 -> git-repos/cs220
+lrwxrwxrwx 1 rblazej1 rblazej1 29 Aug 27 15:15 /home/rblazej1/i220b -> /home/rblazej1/projects/i220b
+rblazej1@remote04:~$ ls -l ~/.ssh ~/cs220 ~/i220b
+lrwxrwxrwx 1 rblazej1 rblazej1 15 Aug 29  2019 /home/rblazej1/cs220 -> git-repos/cs220
+lrwxrwxrwx 1 rblazej1 rblazej1 29 Aug 27 15:15 /home/rblazej1/i220b -> /home/rblazej1/projects/i220b
+
+/home/rblazej1/.ssh:
+total 16
+-rw------- 1 rblazej1 rblazej1  396 Aug 29  2019 authorized_keys
+-rw------- 1 rblazej1 rblazej1 1823 Aug 29  2019 id_rsa
+-rw-r--r-- 1 rblazej1 rblazej1  396 Aug 29  2019 id_rsa.pub
+-rw-r--r-- 1 rblazej1 rblazej1 1998 May  4 13:13 known_hosts
+rblazej1@remote04:~$ cd ~/i220b
+rblazej1@remote04:~/i220b$ git checkout -b lab0
+Switched to a new branch 'lab0'
+rblazej1@remote04:~/i220b$ mkdir -p submit
+rblazej1@remote04:~/i220b$ cd ..
+rblazej1@remote04:~$ exit
+
+Script done on 2020-08-27 15:18:12-04:00 [COMMAND_EXIT_CODE="0"]
